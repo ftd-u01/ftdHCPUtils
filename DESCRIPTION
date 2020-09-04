@@ -1,0 +1,22 @@
+Package: ftdHCPUtils
+Type: Package
+Title: R utilities for data analysis
+Version: 0.1
+Date: 2020-09-04
+Authors@R: person("Jeffrey", "Duda", email = "jeff.duda@gmail.com",
+                  role = c("aut", "cre"))
+Description: R functions for consistent statistical analyses across modalities/studies
+License: Apache License 2.0
+Depends:
+    ANTsRCore
+Imports:
+    methods,
+    Rcpp,
+    ITKR,
+    ANTsRCore
+Suggests:
+    ANTsR,
+    testthat
+LazyData: true
+LinkingTo: ITKR, ANTsRCore
+RoxygenNote: 6.1.0
