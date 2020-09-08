@@ -16,7 +16,7 @@
 #' sVar = sample(40,10)+20
 #' cData = data.frame(Value=cValue, Group=cGroup, Var=cVar)
 #' sData = data.frame(Value=sValue, Group=sGroup, Var=sVar)
-#' sData#wScore = calcWScore( cData, sData, 'Value', 'Group + Var')
+#' sData$wScore = calcWScore( cData, sData, 'Value', 'Group + Var')
 #' @export calcWScore
 
 calcWScore = function( controlData, subjectData, target, predictors ) {
