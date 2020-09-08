@@ -1,5 +1,11 @@
 # ftdHCPUtils
-R functions for consistent statistical analyses across modalities/studies
+R functions for consistent statistical analyses across modalities/studies.
+
+In an attempt to unify methods for basic analysis across studies some basic functions have been implemented for 
+* tSNR
+* w-scores
+
+Plotting/display functions to follow...
 
 ## Installation
 library(devtools)
